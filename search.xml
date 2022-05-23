@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Test</title>
+      <link href="/2022/05/23/test/"/>
+      <url>/2022/05/23/test/</url>
+      
+        <content type="html"><![CDATA[<p><img src="/.io//chenwen_blog\myBlog\source_posts\test\实践.png" alt="实践"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Photo</title>
+      <link href="/2022/05/23/photo/"/>
+      <url>/2022/05/23/photo/</url>
+      
+        <content type="html"><![CDATA[<p><img src="/.io//chenwen_blog\myBlog\source_posts\photo\实践.png" alt="实践"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>这是我的第一篇blog：基于GitHub+Hexo搭建博客的笔记</title>
+      <link href="/2022/05/22/%E8%BF%99%E6%98%AF%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87blog%EF%BC%9A%E5%9F%BA%E4%BA%8EGitHub-Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E7%AC%94%E8%AE%B0/"/>
+      <url>/2022/05/22/%E8%BF%99%E6%98%AF%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87blog%EF%BC%9A%E5%9F%BA%E4%BA%8EGitHub-Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E7%AC%94%E8%AE%B0/</url>
+      
+        <content type="html"><![CDATA[<h2 id="这是我的第一篇blog：基于GitHub-Hexo搭建博客的笔记"><a href="#这是我的第一篇blog：基于GitHub-Hexo搭建博客的笔记" class="headerlink" title="这是我的第一篇blog：基于GitHub+Hexo搭建博客的笔记"></a>这是我的第一篇blog：基于GitHub+Hexo搭建博客的笔记</h2><h3 id="GitHub创建个人仓库"><a href="#GitHub创建个人仓库" class="headerlink" title="GitHub创建个人仓库"></a>GitHub创建个人仓库</h3><p>登录到 GitHub ，如果没有 GitHub 帐号，请使用你的邮箱注册 GitHub 账号:<a href="https://github.com/join">https://github.com/join</a>?</p><p><img src="https://pic3.zhimg.com/v2-f784bb42fdc1c461db35645bbf94f08d_r.jpg?source=1940ef5c" alt="Alt text"></p><p>登录成功之后，点击 GitHub 中的 New repository 创建新仓库，仓库名应该为：用户名 .<a href="http://github.io/">http://github.io</a> 。这里用户名使用你的 GitHub 帐号名称代替，这是固定写法。</p><p><img src="https://pic1.zhimg.com/50/v2-b64d2ef0680b5bdbcfcba3ef0f720346_720w.jpg?source=1940ef5c" alt="Alt text"></p><p>ps: 因为我已经注册了同名仓库，因此第二次创建时会报错。</p><p>我的仓库名为 ：layoutartchenwen&#x2F;layoutartchenwen.github.io</p><h3 id="Git管理"><a href="#Git管理" class="headerlink" title="Git管理"></a>Git管理</h3><p>Git 是目前世界上最先进的分布式版本控制系统（没有之一）。这是使用 Git 的目的是为了将我们的网站从本地提交上服务器（GitHub）上面去。我认为 Git 操作是程序员应该具备的一个基本操作，具体的 Git 操作细节可以查看廖雪峰的教程，讲的十分详细 <a href="https://www.liaoxuefeng.com/wiki/00">https://www.liaoxuefeng.com/wiki/00</a></p><p>安装好Git后，需要进行以下配置：</p><p>在终端进行操作，设置 user.name 和 user.email 配置信息，我这里设置为全局。</p><pre><code>git config --global user.name &quot;你的GitHub用户名&quot;git config --global user.email &quot;你的GitHub注册邮箱&quot; </code></pre><h3 id="生成密钥"><a href="#生成密钥" class="headerlink" title="生成密钥"></a>生成密钥</h3><p><code>ssh-keygen -t rsa -C &quot;你的GitHub注册邮箱&quot;</code></p><p>然后直接三个回车即可，默认不需要设置密码。最后得到了两个文件：id_rsa和id_rsa.pub。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>文本使用手册</title>
+      <link href="/2022/05/22/myBlog/"/>
+      <url>/2022/05/22/myBlog/</url>
+      
+        <content type="html"><![CDATA[<h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class=" language-bash"><code class="language-bash">$ hexo new "My New Pos</code></pre><h3 id="文本使用手册"><a href="#文本使用手册" class="headerlink" title="文本使用手册"></a>文本使用手册</h3><p>我在使用文本时，发现很多问题是常见的，所有写下该使用手册。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2022/05/22/hello-world/"/>
+      <url>/2022/05/22/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class=" language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class=" language-bash"><code class="language-bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class=" language-bash"><code class="language-bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class=" language-bash"><code class="language-bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
